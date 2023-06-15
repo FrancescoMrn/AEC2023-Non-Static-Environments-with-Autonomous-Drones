@@ -18,7 +18,7 @@ Autonomous drone systems have grown in various industries, but their effectivene
 ## Methodology
 Our methodology utilized a 3D simulation environment to recreate realistic drone scenarios and implemented three reinforcement learning algorithms: Deep Deterministic Policy Gradient (DDPG), Soft-Actor Critic (SAC), and Proximal Policy Optimization (PPO). These algorithms were trained and tested on path planning and state estimation within the simulation. Their performance was then analyzed and compared. The integration of the Kalman Filter, a state estimation technique, with these algorithms aimed to enhance drone decision-making and adaptability to dynamic environments.
 
-![Alt Text](./images/Flowchart.PNG | width=400)
+![Alt Text](./images/Flowchart.PNG)
 <center>Overview of the algorithm flowchart</center>
 
 ## Experiment Results
@@ -31,17 +31,21 @@ In our research, we employ three main criteria to evaluate the performance of th
 This metric balances the speed (number of steps) and the quality (reward) of the actions, preventing strategies that excessively prioritize one aspect at the detriment of the other.
 - Success Rate: This represents the ratio of episodes where the agent accomplishes its objective. A higher success rate indicates that the agent can more reliably complete its task. 
 
-![Alt Text](./images/PPO_3D_70.gif | width=400)
+![Alt Text](./images/PPO_3D_70.gif)
 <center>PPO Agent Navigation Animation thought gates - Episode 70</center>
 
-![Alt Text](./images/PPO_3D_220.gif | width=400)
+![Alt Text](./images/PPO_3D_220.gif)
 <center>PPO Agent Navigation Animation thought gates - Episode 220</center>
 
-![Alt Text](./images/SAC_3D_70.gif | width=400)
+![Alt Text](./images/SAC_3D_70.gif)
 <center>SAC Agent Navigation Animation thought gates - Episode 70</center>
 
-![Alt Text](./images/SAC_3D_220.gif | width=400)
+![Alt Text](./images/SAC_3D_220.gif)
 <center>SAC Agent Navigation Animation thought gates - Episode 220</center>
+
+In all visualizations, the gates are denoted by red circles. Each gate's movement is indicated by an additional red circle. When the drone, represented by the blue line, passes through a gate, the corresponding gate is marked green.
+
+The animation shows how the PPO is capable of predicting the gate's position and flying directly to the estimated location. On the contrary, the SAC tends to merely follow the gate, resulting in inferior performance.
 
 ## Conclusions
 
