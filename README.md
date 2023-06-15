@@ -18,8 +18,6 @@ Autonomous drone systems have grown in various industries, but their effectivene
 ## Methodology
 Our methodology utilized a 3D simulation environment to recreate realistic drone scenarios and implemented three reinforcement learning algorithms: Deep Deterministic Policy Gradient (DDPG), Soft-Actor Critic (SAC), and Proximal Policy Optimization (PPO). These algorithms were trained and tested on path planning and state estimation within the simulation. Their performance was then analyzed and compared. The integration of the Kalman Filter, a state estimation technique, with these algorithms aimed to enhance drone decision-making and adaptability to dynamic environments.
 
-![Alt Text](./images/Flowchart.PNG)
-<center>Overview of the algorithm flowchart</center>
 
 ## Experiment Results
 In our research, we employ three main criteria to evaluate the performance of the reinforcement learning algorithms: cumulative score per episode, the count of episodes in which the agent accomplished the objective, and the duration per episode (episode elapsed). These criteria can be further divided into five metrics defined as follows: 
@@ -42,6 +40,7 @@ This metric balances the speed (number of steps) and the quality (reward) of the
 
 ![Alt Text](./images/SAC_3D_220.gif)
 <center>SAC Agent Navigation Animation thought gates - Episode 220</center>
+
 
 In all visualizations, the gates are denoted by red circles. Each gate's movement is indicated by an additional red circle. When the drone, represented by the blue line, passes through a gate, the corresponding gate is marked green.
 
