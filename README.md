@@ -27,8 +27,6 @@ In our research, we employ three main criteria to evaluate the performance of th
 This metric balances the speed (number of steps) and the quality (reward) of the actions, preventing strategies that excessively prioritize one aspect at the detriment of the other.
 - Success Rate: This represents the ratio of episodes where the agent accomplishes its objective. A higher success rate indicates that the agent can more reliably complete its task.
 
-</br>
-
 **PPO Agents Animations**
 
 ![PPO_70](./images/PPO_3D_70.gif)
@@ -37,8 +35,6 @@ This metric balances the speed (number of steps) and the quality (reward) of the
 ![PPO_220](./images/PPO_3D_220.gif)
 <center>PPO Agent Navigation Animation thought gates - Episode 220</center>
 
-</br>
-
 **SAC Agents Animations**
 
 ![SAC_70](./images/SAC_3D_70.gif)
@@ -46,8 +42,6 @@ This metric balances the speed (number of steps) and the quality (reward) of the
 
 ![SAC_220](./images/SAC_3D_220.gif)
 <center>SAC Agent Navigation Animation thought gates - Episode 220</center>
-
-</br>
 
 In all visualizations, the gates are denoted by red circles. An additional red circle indicates each gate's movement. When the drone, represented by the blue line, passes through a gate, the corresponding gate is marked green.
 The animation shows how the PPO is capable of predicting the gate's position and flying directly to the estimated location. On the contrary, the SAC tends to follow the gate, resulting in inferior performance merely.
