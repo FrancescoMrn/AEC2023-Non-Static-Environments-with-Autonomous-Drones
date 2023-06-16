@@ -7,6 +7,10 @@
 
 **Date**: 09-13 July 2023
 
+**Authors**: Francesco Marino, Afshin Zeinaddini Meymand and Giorgio Guglieri 
+
+**University**: Politecnico di Torino, Turin, Italy
+
 ## Introduction
 This webpage provides a succinct overview and illustrative representations of the paper mentioned in the title. View this page as a supplemental resource that complements the original publication.
 
